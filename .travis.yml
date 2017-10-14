@@ -5,9 +5,10 @@ python:
 
 install:
   - pip install -r bot_requirements.txt
+  - pip install pytest
 
 env:
   - BOT_ENV=development
 
 script:
-  /test/sampleTest.py
+  pytest test/test_sample.py
