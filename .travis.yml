@@ -8,3 +8,6 @@ install:
 
 env:
   - BOT_ENV=development
+
+script:
+  /test/sampleTest.py
